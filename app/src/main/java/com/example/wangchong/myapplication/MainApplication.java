@@ -25,9 +25,9 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected List<ReactPackage> getPackages() {
             return Arrays.<ReactPackage>asList(
-                    new MainReactPackage()
+                    new MainReactPackage(),
                     //将我们创建的包管理器给添加进来
-
+                    new MyReactPackage()
             );
         }
     };
